@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Über Mich – Rania Diyani</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    /* Style pour les sections principales */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    #wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    /* Section de l'image avec les informations de la personne */
+    .hero-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 0;
+      background-color: #fff;
+      text-align: center;
+    }
+
+    .hero-img {
+      border-radius: 10px;
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Navbar */
+    #nav {
+      background-color: #333;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    #nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    #nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    #nav ul li a:hover {
+      color: #007bff;
+    }
+
+    /* Sections */
+    .section {
+      padding: 40px 0;
+      width: 80%;
+      max-width: 1200px;
+      margin: 20px auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+    }
+
+    .timeline, .skills-grid, .languages, .soft-skills, .hobbies-content {
+      display: grid;
+      gap: 20px;
+    }
+
+    .timeline-item, .certificate, .skill, .icon {
+      background-color: #f8f8f8;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-item h3, .certificate h3 {
+      margin-bottom: 10px;
+    }
+
+    .image-container {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .image-container img {
+      width: 30%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper" class="fade-in">
+    <div id="intro">
+      <h1>Über Mich</h1>
+      <h2>Rania Diyani – Spezialistin für IT- und digitale Lösungen</h2>
+      <p>Ich bin eine junge Informatikerin mit einer Leidenschaft für innovative digitale Lösungen.<br />
+        Ich kombiniere kreative Ideen mit analytischem Denken, um Softwareentwicklungsprojekte und Systeme zu gestalten, die Herausforderungen in Chancen verwandeln!<br />
+        Erfahren Sie mehr über meinen Werdegang und meine Vision für die digitale Zukunft.
+      </p>
+      <ul class="actions">
+        <li><a href="#header" class="cta-button">Weiter</a></li>
+      </ul>
+    </div>
+
+    <header id="header">
+      <a href="index.html" class="logo">Startseite</a>
+    </header>
+
+    <nav id="nav">
+      <ul class="links">
+        <li><a href="index.html">Portfolio</a></li>
+        <li class="active"><a href="ubermich.html">Über Mich</a></li>
+        <li><a href="projects.html">Meine Projekte</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-section">
+      <img src="images/profilbild.jpg" alt="Rania Diyani" class="hero-img">
+      <div class="hero-text">
+        <h1>Rania Diyani – Informatikerin & Technikbegeisterte</h1>
+        <p>„Ich gestalte digitale Lösungen mit Leidenschaft und Präzision – von der Entwicklung bis zur Benutzerunterstützung.“</p>
+        <a href="#kontakt" class="cta-button">Lebenslauf herunterladen</a>
+        <a href="#kontakt" class="cta-button">Kontaktieren Sie mich</a>
+      </div>
+    </section>
+
+    <main>
+      <section class="section about-me" id="wer-bin-ich">
+        <h2>Wer bin ich?</h2>
+        <p>Hallo! Ich heiße Rania Diyani, leidenschaftliche Informatikerin mit einem vielseitigen Hintergrund in Softwareentwicklung, Netzwerken und IT-Support.</p>
+        <p>Durch meine Ausbildung an der ENS Meknès und meine praktischen Erfahrungen in öffentlichen Institutionen konnte ich technisches Wissen mit praktischer Umsetzung verbinden. Ich bin organisiert, lernfreudig und arbeite gerne im Team an innovativen Lösungen.</p>
+        <p>Mein Ziel? Digitale Prozesse effizient gestalten und dabei den Menschen nie aus dem Blick verlieren.</p>
+      </section>
+
+      <section class="section education" id="bildung">
+        <h2>Mein Bildungsweg</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>2021 – 2024: Bachelor in Informatikpädagogik – ENS, Meknès</h3>
+          </div>
+          <div class="timeline-item">
+            <h3>2020 – 2021: Hochschuljahr in Mathematik/Informatik/Physik/Chemie – FST Beni Mellal</h3>
+          </div>
+          <div class="timeline-item">
+            <h3>2019 – 2020: Abitur in Physik & Chemie – Lycée Abou Alkacem Zayani</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experiences" id="erfahrungen">
+        <h2>Berufserfahrungen & Praktika</h2>
+        <div class="experience-card">
+          <h3>Office National de l'Électricité et de l’Eau Potable</h3>
+          <p><strong>Informatik-Abteilung</strong> | Juni – August 2024</p>
+          <ul>
+            <li>IT-Infrastruktur verwaltet</li>
+            <li>Interne Tools entwickelt</li>
+            <li>IT-Support für Mitarbeitende</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <h3>Delegation der Nationalen Förderung</h3>
+          <p><strong>Informatik-Abteilung</strong> | September – November 2024</p>
+          <ul>
+            <li>Systeme gewartet</li>
+            <li>An Softwareprojekten mitgearbeitet</li>
+            <li>Datenbanken aktualisiert</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <h2>Technische Kompetenzen</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h3>Programmiersprachen</h3>
+            <p>Java, C, HTML, CSS, JavaScript</p>
+          </div>
+          <div class="skill">
+            <h3>Datenbanken</h3>
+            <p>MySQL</p>
+          </div>
+          <div class="skill">
+            <h3>Tools & IDEs</h3>
+            <p>Git, Eclipse, Visual Studio Code</p>
+          </div>
+          <div class="skill">
+            <h3>KI-Grundlagen</h3>
+            <p>Einführung in KI (HP LIFE)</p>
+          </div>
+          <div class="skill">
+            <h3>Cyber Security</h3>
+            <p>Basis-Zertifikate (2025)</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section languages" id="languages">
+        <h2>Sprachen</h2>
+        <div class="language-proficiency">
+          <p>🇩🇪 Deutsch – B2</p>
+          <p>🇬🇧 Englisch – C1 (EF SET Advanced)</p>
+          <p>🇫🇷 Französisch – Fließend</p>
+          <p>🇲🇦 Arabisch – Muttersprache</p>
+        </div>
+      </section>
+
+      <section class="section certificates" id="zertifikate">
+        <h2>Zertifikate</h2>
+        <div class="certificates-grid">
+          <div class="certificate">
+            <div class="certificate-header">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Python Certificate</h3>
+            </div>
+            <p>März 2025</p>
+            <a href="path-to-pdf/python_certificate.pdf" class="download-link" target="_blank">Download</a>
+          </div>
+          <div class="certificate">
+            <div class="certificate-header">
+              <i class="fas fa-shield-alt"></i>
+              <h3>Cyber Security for Beginners</h3>
+            </div>
+            <p>März 2025</p>
+            <a href="path-to-pdf/cyber_security_certificate.pdf" class="download-link" target="_blank">Download</a>
+          </div>
+          <div class="certificate">
+            <div class="certificate-header">
+              <i class="fas fa-network-wired"></i>
+              <h3>Network Types</h3>
+            </div>
+            <p>März 2025</p>
+            <a href="path-to-pdf/network_types_certificate.pdf" class="download-link" target="_blank">Download</a>
+          </div>
+          <div class="certificate">
+            <div class="certificate-header">
+              <i class="fas fa-robot"></i>
+              <h3>AI for Beginners (HP)</h3>
+            </div>
+            <p>März 2025</p>
+            <a href="path-to-pdf/ai_for_beginners_certificate.pdf" class="download-link" target="_blank">Download</a>
+          </div>
+          <div class="certificate">
+            <div class="certificate-header">
+              <i class="fas fa-robot"></i>
+              <h3>B2 Deutsch</h3>
+            </div>
+            <p>März 2025</p>
+            <a href="path-to-pdf/telc.pdf" class="download-link" target="_blank">Download</a>
+          </div>
+          <div class="certificate">
+            <div class="certificate-header">
+              <i class="fas fa-robot"></i>
+              <h3>C1 Englisch</h3>
+            </div>
+            <p>März 2025</p>
+            <a href="path-to-pdf/EF SET Certificate ENGLISCH.pdf" class="download-link" target="_blank">Download</a>
+          </div>
+
+        </div>
+      </section>
+      
+
+      <section class="section soft-skills" id="soft-skills">
+        <h2>Soft Skills</h2>
+        <div class="skills-icons">
+          <div class="icon">
+            <p>🤝 Teamarbeit – Gemeinsam stark</p>
+          </div>
+          <div class="icon">
+            <p>🧩 Problemlösung – Analytisch & kreativ</p>
+          </div>
+          <div class="icon">
+            <p>⏱️ Zeitmanagement – Effizient & organisiert</p>
+          </div>
+          <div class="icon">
+            <p>🔄 Flexibilität – Schnell anpassungsfähig</p>
+          </div>
+          <div class="icon">
+            <p>🗣️ Kommunikation – Klar & empathisch</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section hobbies" id="hobbies">
+        <h2>Persönliche Seite & Hobbys</h2>
+        <div class="hobbies-content">
+          <p>📷 Fotografie & Bildbearbeitung</p>
+          <p>🌍 Reisen & Kulturen entdecken</p>
+          <p>🏃‍♀️ Sport & Bewegung</p>
+        </div>
+        <div class="image-container">
+          <img src="images/photo1.jpg" alt="Hobby 1">
+          <img src="images/photo2.jpg" alt="Hobby 2">
+          <img src="images/photo3.jpg" alt="Hobby 3">
+        </div>
+      </section>
+
+      <section class="section contact" id="kontakt">
+        <h2>Kontakt</h2>
+        <p>E-Mail: <a href="mailto:raniadiyani02@gmail.com">raniadiyani02@gmail.com</a></p>
+        <p>Telefon: 0611954203</p>
+        <p>📍 Khénifra, Marokko</p>
+        <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/raniadiyani">raniadiyani</a></p>
+        <p>🔗 GitHub: <a href="https://github.com/raniadiyani">raniadiyani</a></p>
+        <a href="mailto:raniadiyani02@gmail.com" class="cta-button">Kontaktieren Sie mich</a>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Rania Diy
+
+		
